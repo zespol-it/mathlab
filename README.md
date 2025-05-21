@@ -155,9 +155,9 @@ The project includes three types of neural networks:
    - Multi-signal display 
 
 
-//=
+## Test HIL
 
-Stworzyliśmy kompletny system testów HIL, który obejmuje:
+Stworzony kompletny system testów HIL, który obejmuje:
 1. Testy EMG:
 - Akwizycję sygnału
 - Kalibrację
@@ -175,7 +175,7 @@ Wszystkie testy są dobrze udokumentowane i gotowe do użycia. Aby rozpocząć t
 2. Skonfigurować system referencyjny
 3. Uruchomić testy poleceniem runtests('tests/HIL')
 
-//===
+### notepad
 
 Na podstawie dostępnego kodu i struktury projektu, mogę zaproponować wygenerowanie następujących konkretnych aplikacji:
 1. System analizy EMG w czasie rzeczywistym:
@@ -238,11 +238,12 @@ Funkcje:
    - Generowanie raportów
 
 Każda z tych aplikacji może być wygenerowana z dostępnego kodu, ale będzie wymagała:
-Konfiguracji odpowiednich toolboxów MATLAB
-Dostępu do odpowiedniego sprzętu (dla części funkcji)
-Dostosowania parametrów do konkretnych potrzeb
+1. Konfiguracji odpowiednich toolboxów MATLAB
+2. Dostępu do odpowiedniego sprzętu (dla części funkcji)
+3. Dostosowania parametrów do konkretnych potrzeb
+
 Którą z tych aplikacji chciałbyś, żebym rozwinął bardziej szczegółowo? Mogę:
-Pokazać dokładną strukturę kodu
-Wygenerować przykładowy interfejs użytkownika
-Przygotować skrypty demonstracyjne
-Stworzyć dokumentację użytkownika
+- Pokazać dokładną strukturę kodu
+- Wygenerować przykładowy interfejs użytkownika
+- Przygotować skrypty demonstracyjne
+- Stworzyć dokumentację użytkownika
