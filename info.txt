@@ -1,0 +1,17 @@
+Stworzyliśmy kompletny system testów HIL, który obejmuje:
+1. Testy EMG:
+- Akwizycję sygnału
+- Kalibrację
+- Przetwarzanie w czasie rzeczywistym
+- Odporność na zakłócenia
+
+2. Testy IMU:
+- Wyrównanie statyczne
+- Dokładność dynamiczną
+- Stabilność temperaturową
+- Odpowiedź na wibracje
+
+Wszystkie testy są dobrze udokumentowane i gotowe do użycia. Aby rozpocząć testowanie z rzeczywistym sprzętem, należy tylko:
+1. Podłączyć odpowiednie urządzenia (EMG, IMU)
+2. Skonfigurować system referencyjny
+3. Uruchomić testy poleceniem runtests('tests/HIL')
