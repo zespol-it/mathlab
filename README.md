@@ -2,6 +2,8 @@
 
 This MATLAB project demonstrates advanced signal processing capabilities including:
 - Biosignal Processing (EMG, ECG, EEG)
+- Machine Learning Classification
+- VR/AR Visualization
 - Inertial Navigation
 - GPU-Accelerated Computing
 - Unit Testing Framework
@@ -11,6 +13,8 @@ This MATLAB project demonstrates advanced signal processing capabilities includi
 ```
 ├── src/
 │   ├── biosignals/         # Biosignal processing algorithms
+│   ├── ml/                # Machine learning classifiers
+│   ├── vr/                # VR/AR visualization
 │   ├── navigation/         # Inertial navigation implementations
 │   ├── gpu/               # GPU-accelerated computations
 │   └── utils/             # Utility functions
@@ -24,9 +28,13 @@ This MATLAB project demonstrates advanced signal processing capabilities includi
 ## Requirements
 - MATLAB R2023b or newer
 - Signal Processing Toolbox
+- Deep Learning Toolbox
+- Computer Vision Toolbox
+- VR/AR Support Package
 - Parallel Computing Toolbox
 - MATLAB Coder
 - GPU Computing Toolbox
+- Webcam Support Package (for AR)
 
 ## Getting Started
 1. Clone this repository
@@ -52,7 +60,9 @@ This MATLAB project demonstrates advanced signal processing capabilities includi
 The demo script will show:
 - EMG signal processing visualization
 - GPU vs CPU performance benchmarks
-- Inertial navigation plots (position, velocity, orientation)
+- Inertial navigation plots
+- Machine learning classification results
+- VR/AR biosignal visualization
 
 ### Hardware-in-the-Loop Testing
 For hardware testing, additional equipment is required:
@@ -60,6 +70,7 @@ For hardware testing, additional equipment is required:
 - IMU device (with I2C interface)
 - Reference measurement system (e.g., optical tracking)
 - Environmental test equipment (temperature chamber, vibration generator)
+- VR headset or AR-capable device
 
 To run HIL tests:
 ```matlab
@@ -85,18 +96,60 @@ HIL tests include:
    - ECG peak detection and heart rate variability
    - EEG frequency band analysis
 
-2. Inertial Navigation:
+2. Machine Learning:
+   - Deep learning classifiers (LSTM, CNN, Transformer)
+   - Real-time signal classification
+   - Feature extraction and visualization
+   - GPU-accelerated training
+
+3. VR/AR Visualization:
+   - Immersive biosignal visualization
+   - Real-time signal rendering
+   - 3D feature space exploration
+   - AR marker-based alignment
+
+4. Inertial Navigation:
    - Kalman filtering for sensor fusion
    - Attitude estimation
    - Position tracking
 
-3. GPU Computing:
+5. GPU Computing:
    - Parallel signal processing
    - Fast Fourier Transform acceleration
    - Large dataset handling
 
-4. Testing:
+6. Testing:
    - Unit tests for all components
    - Hardware-in-the-Loop (HIL) tests
    - Performance benchmarks
-   - Code coverage reports 
+   - Code coverage reports
+
+## Machine Learning Models
+The project includes three types of neural networks:
+1. LSTM Network:
+   - Temporal signal processing
+   - Sequence classification
+   - Long-term pattern recognition
+
+2. 1D Convolutional Neural Network:
+   - Signal pattern recognition
+   - Feature extraction
+   - Real-time classification
+
+3. Transformer Network:
+   - Complex pattern analysis
+   - Attention-based processing
+   - Multi-channel signal analysis
+
+## VR/AR Features
+1. Virtual Reality:
+   - 3D signal visualization
+   - Interactive signal exploration
+   - Feature space navigation
+   - Real-time data updates
+
+2. Augmented Reality:
+   - Marker-based signal alignment
+   - Real-world data overlay
+   - Mobile visualization
+   - Multi-signal display 
